@@ -1,0 +1,1395 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: MontserratBold;
+    src: url(../fonts/Montserrat/static/Montserrat-Bold.ttf);
+}
+@font-face {
+    font-family: MontserratSemiBold;
+    src: url(../fonts/Montserrat/static/Montserrat-SemiBold.ttf);
+}
+@font-face {
+    font-family: MontserratRegular;
+    src: url(../fonts/Montserrat/static/Montserrat-Regular.ttf);
+}
+.wrapper {
+    max-width: 1444px;
+    margin: 0 auto;
+}
+.container {
+    display: flex;  
+    margin-top: 40px;
+    gap: 32px;
+}
+.olymp {
+    background-color: #F7F7F7;
+    border-radius: 32px;
+    padding: 52px 64px 0px 64px;
+    width: 822px;
+}
+.better{
+    margin-top: 32px;
+    font-family: MontserratSemiBold;
+    font-size: 24px;
+    text-align: left;
+    color: #121212;
+}
+.logo_mobil {
+    display: none;
+}
+.container_top {
+    display: flex;
+}
+.logo_comp{
+    width: 149px;
+    height: 47px;
+    margin-left: auto;
+}
+.container_text {
+    color: #002F49;
+}
+.container_text p {
+    font-style: 24px;
+    font-family: MontserratBold;
+}
+.container_text h1 {
+    font-size: 60px;
+    font-family: MontserratBold;
+}
+.start {
+    margin-top: 80px;
+}
+.line3 {
+    width: 480px;
+    height: 3px;
+    background-color: #121212;
+}
+.lets {
+    padding: 20px 40px 20px 40px;
+    border-radius: 24px 8px 24px 8px;
+    background: #002F49;
+    border:  none;
+    font-family: MontserratSemiBold;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24.38px;
+    margin-top: 24px;
+    color:  #FFFFFF;
+}
+.lets:hover {
+    background: #104A6A;
+}
+/* pop up */
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 999;
+    overflow: auto;
+}
+
+.popup-content {
+    max-width: 358px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* form pop up */
+form {
+    display: flex;
+    flex-direction: column;
+    font-family: MontserratSemiBold;
+
+}
+
+form p {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: auto;
+}
+
+input {
+    font-family: MontserratSemiBold;
+    margin: 10px 0;
+    padding: 16px 20px 16px 20px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 52px;
+    background-color: #F2F2F2;
+    border: none;
+}
+
+.send {
+    font-family: MontserratSemiBold;
+    text-align: center;
+    background-color: #002F49;
+    color: white;
+    border: none;
+    width: 100%;
+        height: 54px;
+    padding: 16px 32px 16px 32px;
+    gap: 10px;
+    border-radius: 24px 8px 24px 8px;
+}
+.popup-content a{
+    font-family: MontserratRegular;
+    font-size: 11px;
+    text-decoration: none;
+    color: #6D6D6D;
+}
+.popup-content a span{
+   text-decoration: underline;
+}
+.send:hover {
+    background-color: #104A6A;
+}
+
+
+.hide_logo {
+    display: none;
+}
+.info {
+    display: flex;
+    gap: 32px;
+    margin-top: 32px;
+}
+.info p {
+    font-family: MontserratSemiBold;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 15.85px;
+    color: #6D6D6D;
+}
+
+/* поп ап */
+
+
+
+
+
+
+
+
+
+/* Иконки */
+
+.lists {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.case1 {
+    width: 298px;
+    height: 112px;
+    padding: 20px 20px 16px 20px;
+    border-radius: 16px 16px 16px 4px;
+    background: #F7F7F7;
+    margin-top: 28px;
+    line-height: 36px;
+    font-family: MontserratSemiBold;
+}
+.case1 img {
+    margin-left: auto;
+}
+.container_text_lists {
+    display: flex;
+}
+
+/* О нас */
+.container_shop {
+    margin-top: 103px;
+    display: flex;
+    gap: 32px;
+
+}
+.col1 {
+    width: 460px;
+}
+.absolute_lid {
+    width: 952px;
+    height: 53px;
+    padding: 32px 0px 0px 0px;
+    border-radius: 32px 16px 32px 32px;
+    background: #F7F7F7;
+}
+.absolute_lid_text {
+    padding-left: 20px;
+    font-family: MontserratSemiBold;
+    font-size: 20px;
+    line-height: 24.38px;
+}
+.line {
+    width: 190px;
+    height: 3px;
+    color: black;
+}
+.about_us {
+    margin-top: 16px;
+    width: 885px;
+    padding: 24px 32px 16px 32px;
+    border-radius: 32px 32px 16px 32px;
+    background: #F7F7F7;
+}
+.container_title {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.title p {
+    font-family: MontserratSemiBold;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17.07px;
+    color: #002F49;
+}
+.line2 {
+    width: 40px;
+    height: 3px;
+    background-color: #000;
+}
+.title h1 {
+    font-family: MontserratSemiBold;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 34.13px;
+    color: #121212;
+}
+.text p{
+    margin-top: 20px;
+    font-family: MontserratRegular;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.07px;
+    text-align: left;
+}
+.hide {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    font-family: MontserratSemiBold;
+    font-size: 12px;
+    text-transform: uppercase;
+    gap: 8.5px;
+    cursor: pointer;
+}
+.hide img {
+    width: 9px;
+    height: 9px;
+}
+
+.text {
+    display: block; /* показываем текст по умолчанию */
+}
+.text {
+    display: block;
+    max-height: 500px; /* Необходимо указать максимальную высоту текста */
+    overflow: hidden;
+    transition: max-height 0.5s ease; /* Добавляем плавную анимацию */
+}
+
+.text.collapsed {
+    max-height: 0; /* Сворачиваем текст до нулевой высоты */
+}
+
+/* Проекты */
+.container_projects {
+    margin-top: 104px;
+    display: flex;
+}
+.title2 {
+    display: flex;
+    align-items: center;
+}
+.title2 h1 {
+    font-family: MontserratSemiBold;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 34.13px;
+    color: #121212;
+}
+.line4 {
+    width: 240px;
+    height: 3px;
+    background-color: #121212;
+    margin-left: auto;
+}
+
+/* слайдер */
+.item {
+    display: flex;
+    gap: 32px;
+}
+.item_col1 {
+    padding: 28px 32px 16px 32px;
+    border-radius: 16px 32px 32px 32px;
+    background-color: #F7F7F7;
+}
+.container_projects2 {
+    display: flex;
+    margin-top: 32px;
+}
+.container2 {
+    margin-right: 20px;
+}
+.slider_controls {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.button-next {
+    background: none; 
+    border: none;
+    cursor: pointer;
+}
+.button-prev {
+    background: none; 
+    border: none;
+    cursor: pointer;
+}
+.slider_circles {
+    width: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 1px;
+}
+
+.circle-indicator {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #F7F7F7;
+    cursor: pointer;
+}
+
+.circle-indicator.active {
+    background-color: #121212; /* Change the active indicator color */
+}
+
+
+.text_item {
+    font-family: MontserratRegular;
+    font-size: 16px;
+    margin-top: 16px;
+}
+.text_item p {
+    margin-top: 11px;
+}
+.airport {
+    display: flex;
+    font-family: MontserratRegular;
+    font-size: 16px;
+    align-items: end;
+}
+
+/* Хотите также?*/
+.wants {
+    display: flex;
+    justify-content: end;
+    margin-top: 32px;
+
+}
+.want {
+    width: 238px;
+    height: 64px;
+    border-radius: 24px 8px 24px 8px;
+    background: #002F49;
+    border: none;
+    font-family: MontserratBold;
+    font-size: 20px;
+    line-height: 24.38px;
+    color: #FFFFFF;
+}
+.want:hover {
+    background: #104A6A;
+
+}
+
+
+/* Почему выбирают нас */
+.why_we {
+    margin-top: 100px;
+}
+.container_why_we {
+    margin-top: 33px;
+}
+.container_why_we2 {
+    display: flex;
+    gap: 32px;
+    flex-wrap: wrap;
+}
+.item_why_we {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 20px;
+    width: 460px;
+    height: 90px;
+    padding: 10px 0px 0px 0px;
+    border-radius: 4px 16px 16px 16px;
+    background: #F7F7F7;
+}
+.item_why_we img {
+    width: 60px;
+    height: 60px;
+    margin-left: 20px;
+}
+.text_why_we {
+    font-family: MontserratRegular;
+    font-size: 14px;
+}
+
+
+/* choise */
+.choise {
+    margin-top: 86px;
+}
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 12px;
+}
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+.icon2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+
+.container-slider2 {
+    max-width: 1440px;
+    width: 100%;
+}
+
+.slider-wrapper .image-list {
+    display: flex;
+    gap: 18px;
+    overflow: hidden;
+    scroll-behavior: smooth;
+}
+
+.slider-wrapper .image-list .image-item {
+    width: 340px;
+    height: 480px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.slide p {
+    font-family: MontserratBold;
+    font-size: 14px;
+    text-align: center;
+}
+/* Партнеры */
+
+.join {
+    margin-top: 100px;
+    
+}
+.join_items{
+    display: flex;
+    gap: 32px;
+    flex-wrap: wrap;
+    margin-top: 32px;
+}
+.join_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 214px;
+    height: 200px;
+    border-radius: 4px 16px 16px 16px;
+    background-color: #F7F7F7;
+}
+.join_item p{
+    margin-top: 16px;
+    font-family: MontserratBold;
+    color: #121212;
+}
+.join_item2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 214px;
+    height: 200px;
+    border-radius: 4px 16px 16px 16px;
+    color: white;
+    background-color: #002F49;
+    border: none;
+}
+.join_item2 p{
+    margin-top: 16px;
+    font-family: MontserratBold;
+    color: white;
+}
+.join_item2:hover {
+    background: #104A6A;
+}
+
+.open_vacancy {
+    margin-top: 121px;
+}
+.vacancyes_items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+.vacancyes_item {
+    display: flex;
+    width: 420px;
+    height: 41px;
+    border-radius: 4px 16px 16px 16px;
+    background-color: #F7F7F7;
+    padding: 20px;
+    margin-top: 32px;
+    font-family: MontserratSemiBold;
+    display: flex;
+    align-items: center;
+}
+.vacancyes_item img {
+   margin-left: auto;
+    width: 22px;
+    height: 22px;
+}
+.vacancyes_text {
+    font-size: 16px;
+    line-height: 19.5px;
+    text-align: left;
+
+}
+.vacancyes_item p {
+    margin-top: auto;
+    margin-left: auto;
+}
+
+
+
+.vacanyes2 {
+
+}
+.vacancyes_item2 {
+    display: flex;
+    width: auto;
+    height: 41px;
+    border-radius: 4px 16px 16px 16px;
+    background-color: #F7F7F7;
+    padding: 20px;
+    margin-top: 32px;
+    font-family: MontserratSemiBold;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.vacancyes_item2 img {
+   margin-left: auto;
+    width: 22px;
+    height: 22px;
+}
+.vacancyes_text2 {
+    font-size: 16px;
+    line-height: 19.5px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.vacancyes_item2 p {
+    margin-top: auto;
+    margin-left: auto;
+}
+.vacancyes_text3 {
+    display: flex;
+    gap: 20px;
+    margin-left: 587px;
+    margin-left: auto;
+}
+.line5 {
+    width: 240px;
+    height: 3px;
+    background-color: #000;
+
+}
+/* footer */
+footer {
+    margin-top: 100px;
+}
+.container_footer {
+    display: flex;
+    gap: 32px;
+    flex-wrap: wrap;
+}
+.logotip{
+    display: flex;
+    margin-left: auto;
+}
+.contact {
+    margin-top: 32px;
+    width: 460px;
+    height: 261px;
+    padding: 24px 32px 16px 32px;
+    border-radius: 8px 32px 8px 32px;
+    background: #F7F7F7;
+}
+.container_contact {
+    display: flex;
+    flex-direction: column;
+    margin-top: 22px;
+    gap: 20px;
+    font-family: MontserratRegular;
+}
+.contact_item {
+    display: flex;
+    gap: 10px;
+}
+.col2_footer {
+    width: 60%;
+    height: 100%;
+}
+iframe {
+    width: 875px;
+    height: 460px;
+    border-radius: 32px;
+}
+.politic {
+    display: flex;
+    gap: 20px;   
+    color: #6D6D6D;
+    font-family: MontserratRegular;
+}
+.politic a {
+    color: #6D6D6D;
+}
+a:hover {
+    color: #121212;
+
+}
+
+
+
+@media  (width < 768px) {
+    .wrapper {
+        width: 100%;
+    }
+    .container {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .hide_logo {
+        display: flex;
+        justify-content: center;
+        margin: 36px auto;
+    }
+    .olymp {
+        width: 100%;
+        padding: 0;
+        margin-left: 7px;
+        margin-right: 7px;
+    }
+    .container_top {
+        display: block;
+    }
+    .container_text {
+        display: flex;
+        margin: 0 auto;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .container_text p {
+        font-size: 12px;
+    }
+    .container_text h1 {
+        font-size: 36px;
+        text-align: center;
+    }
+    .better {
+        font-size: 16px;
+        text-align: center;
+    }
+    .start {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    .line3 {
+        display: flex;
+        width: 80%;
+        height: 3px;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    .better {
+        font-size: 16px;
+        text-align: center;
+        width: 317px;
+        display: flex;
+        justify-content: center;
+        margin: 32px auto;
+    }
+    .logo_comp {
+        display: none;
+    }
+    .lets {
+        display: flex;
+        justify-content: center;
+        width: 80%;
+        margin: 24px auto;
+        font-size: 18px;
+        padding: 16px 32px 16px 32px;
+        font-weight: 100;
+     }
+    .info {
+        display: block;
+        text-align: center;
+        margin-top: 0px;
+        margin-bottom: 10px;
+    }
+    .info p {
+      margin-top: 5px;
+    }
+    .plane img{
+        width: 90%;
+    }
+    .lists {
+        width: 90%;
+    }
+    .case1 {
+        width: 33%;
+        height: 150px;
+    }
+    .container_shop {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .col1 img {
+        width: 90%;
+           }
+    .col2 {
+        width: 100%;
+    }
+    .absolute_lid {
+        width: 90%;
+        text-align: center;
+               padding-top: 20px;
+    }
+    .absolute_lid_text {
+        padding: 0px;
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .about_us {
+        width: 74%;
+        padding-top: 20px;
+    }
+    .shops {
+        width: 93%;
+        margin-top: 10px;
+    }
+    .container_for_all {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .container_projects2 {
+        display: block;
+               width: 100%;
+    }
+    .container2 {
+        margin: 0 auto; 
+    
+    }
+    .slider_controls {
+        display: flex;
+        gap: 20px;
+        margin: 0 auto;
+        flex-direction: row;
+    }
+    .line4 {
+        display: none;
+    }
+    .button-next {
+        transform: rotate(270deg);
+
+    }
+    .button-prev {
+        transform: rotate(270deg);
+    }
+    .slider_circles {
+        display: flex;
+        flex-direction: row;
+        width: 100px;
+    }
+    .item {
+        flex-wrap: wrap;
+    }
+    .title {
+        width: 92%;
+           }
+    .slider_section {
+        display: flex;
+        flex-direction: row;
+    }
+    .item_col2 img {
+        width: 93%;
+           }
+    .wants {
+        display: block;
+        width: 100%;
+        margin-left: 16px;  
+     }
+    .want {
+        width: 100%;
+        font-size: 18px;
+    }
+    .container_why_we {
+        width: 90%;
+           }
+    .container_why_we2 {
+        gap: 8px;
+    }
+    .title h1 {
+        width: 100%;
+        font-size: 22px;
+    }
+
+    .item_col1 {
+        width: 100%;
+    }
+    .join {
+        width: 80%;
+    }
+    .join_items {
+        gap: 10px;
+    }
+    .join_item {
+        width: 43%;
+               text-align: center;
+    }
+    .join_item p {
+        font-size: 15px;
+    }
+    .join_item img {
+        width: 45%;
+        height: 45%;
+    }
+    .join_item2 {
+        width: 44%;
+           }
+    .container-slider2 {
+        max-width: 1440px;
+        width: 90%;
+           }
+    .open_vacancy {
+        width: 100%;
+    }
+    .vacancyes_items {
+        width: 100%;
+        gap: 0px;
+    }
+    .vacanyes {
+        width: 83%;   
+           }
+    .vacancyes_item {
+        width: 100%;
+        margin-top: 10px;
+    }
+    .vacanyes2 {
+        width: 93%;
+            }
+    .line5 {
+        display: none;
+    }
+    .vacancyes_text3 {
+        display: block;
+        text-align: center;
+      }
+    .vacancyes_item2 {
+        height: max-content;
+        display: block;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .vacancyes_item2 {
+        height: max-content;
+        display: block;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .vacancyes_text2 p {
+        font-size: 18px;
+    }
+    .vacancyes_text3 {
+        font-size: 14px;
+    }
+    .container_footer {
+        width: 100%;
+        flex-wrap: wrap;
+           }
+    .logotip {
+        text-align: center;
+        display: block;
+        margin: 16px auto;
+    }
+    .container_title {
+        width: 50%;
+    }
+    .contact {
+        width: 83%;
+    }
+    iframe {
+               width: 350px;
+        height: 600px;
+    }
+    .popup-content {
+        max-width: 100%;
+        width: 90%;
+        padding: 10px;
+    }
+    
+    form p {
+        margin-top: 10px;
+    }
+    
+    input {
+        padding: 12px;
+    }
+    
+    .send {
+        padding: 12px;
+    }
+    
+    .popup-content {
+        max-width: 358px;
+        position: absolute;
+        top: 5%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: #fff;
+        padding: 20px;
+        border-radius: 10px;
+        text-align: center;
+    }
+    
+}
+@media  (width < 1025px) {
+    .wrapper {
+        width: 100%;
+    }
+    .container {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .plane {
+        margin: 0 auto;
+        display: flex;
+    }
+    .plane img{
+        margin: 0 auto;
+
+    }
+    .olymp {
+        width: 100%;
+        padding: 0;
+    }
+    .container_top {
+        display: block;
+        margin-top: 30px;
+    }
+    .container_text {
+        display: flex;
+        margin: 0 auto;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .container_text p {
+        font-size: 12px;
+    }
+    .container_text h1 {
+        font-size: 36px;
+        text-align: center;
+    }
+    .better {
+        font-size: 16px;
+        text-align: center;
+    }
+    .start {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    .line3 {
+        display: flex;
+        width: 80%;
+        height: 3px;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    .better {
+        font-size: 16px;
+        text-align: center;
+        width: 317px;
+        display: flex;
+        justify-content: center;
+        margin: 32px auto;
+    }
+    .logo_comp {
+        display: none;
+    }
+    .lets {
+        display: flex;
+        justify-content: center;
+        width: 80%;
+        margin: 24px auto;
+        font-size: 18px;
+        padding: 16px 32px 16px 32px;
+        font-weight: 100;
+     }
+    .info {
+        display: block;
+        text-align: center;
+        margin-top: 0px;
+        margin-bottom: 10px;
+    }
+    .info p {
+      margin-top: 5px;
+    }
+    .lists {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+    .case1 {
+        width: 33%;
+        height: 150px;
+    }
+    .container_shop {
+        width: 100%;
+        flex-wrap: wrap;
+        margin: 50px auto;
+        display: flex;
+        justify-content: center;
+    }
+    .why_we {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .col1 {
+        width: 80%;
+        display: flex;
+        justify-content: center;
+    }
+    .col1 img {
+        width: 90%;
+    }
+    .col2 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .text {
+        max-height: 800px;
+    }
+    .absolute_lid {
+        width: 90%;
+        text-align: center;
+        margin-left: 26px;
+        padding-top: 20px;
+    }
+    .absolute_lid_text {
+        padding: 0px;
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .about_us {
+        width: 80%;
+        margin: 20px auto;
+    }
+    .shops {
+        width: 93%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 30px auto;
+    }
+    .container_for_all {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .container_projects {
+        margin-top: 104px;
+        display: flex;
+        justify-content: center;
+        margin-left: 25px;
+    }
+    .container_projects2 {
+        display: block;
+               width: 100%;
+    }
+    .item_col2 {
+        margin: 0 auto;
+    }
+    .container2 {
+        margin: 0 auto; 
+    }
+    .slider_controls {
+        display: flex;
+        gap: 20px;
+        margin: 0 auto;
+        flex-direction: row;
+    }
+    .slider-wrapper .image-list {
+        display: flex;
+        gap: 23px;
+        overflow: hidden;
+        scroll-behavior: smooth;
+    }
+    .icons {
+        width: 89%;
+    }
+    .choise {
+        margin-left: 25px;
+    }
+    .line4 {
+        display: none;
+    }
+    .button-next {
+        transform: rotate(270deg);
+
+    }
+    .button-prev {
+        transform: rotate(270deg);
+    }
+    .slider_circles {
+        display: flex;
+        flex-direction: row;
+        width: 100px;
+    }
+    .item {
+        flex-wrap: wrap;
+    }
+    .title {
+        width: 80%;
+        margin-left: 0px;
+    }
+    .slider_section {
+        display: flex;
+        flex-direction: row;
+    }
+    .item_col2 img {
+        width: 93%;
+        margin: 0 auto;
+        display: flex;
+    }
+    .wants {
+        display: block;
+        width: 100%;
+        margin-left: 16px;  
+    }
+    .want {
+        width: 92%;
+        font-size: 18px;
+    }
+    .container_why_we {
+        width: 100%;
+    }
+    .container_why_we2 {
+          gap: 8px;
+         display: flex;
+         justify-content: center;
+    }
+    .title h1 {
+        width: 78%;
+        font-size: 22px;
+    }
+    .item_col1 {
+        width: 100%;
+    }
+    .join {
+        width: 80%;
+        margin-left: 25px;
+    }
+    .join_items {
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+    }
+    .join_item {
+        width: 43%;
+               text-align: center;
+    }
+    .join_item p {
+        font-size: 15px;
+    }
+    .join_item img {
+        width: 45%;
+        height: 45%;
+    }
+    .join_item2 {
+        width: 43%;
+           }
+    .container-slider2 {
+        max-width: 1440px;
+        width: 90%;
+    }
+    .open_vacancy {
+        width: 90%;
+        margin-left: 25px;
+    }
+    .vacancyes_items {
+        width: 100%;
+        gap: 0px;
+        display: flex;
+        justify-content: center;
+    }
+    .vacanyes {
+        width: 88%;
+           }
+    .vacancyes_item {
+        width: 100%;
+        margin-top: 10px;
+    }
+    .vacanyes2 {
+        width: 93%;
+        margin: 0 auto;
+    }
+    .vacancyes_text2 {
+        display: block;
+        text-align: center;
+    }
+    .line5 {
+        display: none;
+    }
+    .vacancyes_text3 {
+        display: block;
+        text-align: center;
+        margin-top: 10px;
+      }
+    .vacancyes_item2 {
+        height: max-content;
+        display: block;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .vacancyes_item2 {
+        height: max-content;
+        display: block;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .vacancyes_text2 p {
+        font-size: 18px;
+    }
+    .vacancyes_text3 {
+        font-size: 14px;
+    }
+    .container_footer {
+        width: 100%;
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+    }
+    .logotip {
+        text-align: center;
+        display: block;
+        margin: 16px auto;
+    }
+    .container_title {
+        width: 50%;
+    }
+    .contact {
+        width: 90%;
+    }
+    iframe {
+        width: 100%;
+        height: 600px;
+    }
+    .popup-content {
+        max-width: 100%;
+        width: 90%;
+        padding: 10px;
+    }
+    
+    form p {
+        margin-top: 10px;
+    }
+    
+    input {
+        padding: 12px;
+    }
+    
+    .send {
+        padding: 12px;
+    }
+    
+    .popup-content {
+        max-width: 358px;
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: #fff;
+        padding: 20px;
+        border-radius: 10px;
+        text-align: center;
+    }
+    .col1_footer {
+        width: 91%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    .col2_footer {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .slider-wrapper .image-list .image-item {
+        width: 353px;
+        height: 480px;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+}
